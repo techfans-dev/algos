@@ -63,4 +63,5 @@ class HashMap {
   console.log(myHashMap.size()); // Output: 2
   
   myHashMap.clear();
+  
   console.log(myHashMap.size()); // Output: 0
