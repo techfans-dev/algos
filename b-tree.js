@@ -52,6 +52,7 @@ class BTreeNode {
         this._insertNonFull(x.children[i], key);
       }
     }
+    
   
     _splitChild(x, i) {
       const degree = this.degree;
