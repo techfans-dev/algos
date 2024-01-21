@@ -97,6 +97,8 @@ class BTreeNode {
   });
   
   const searchKey = 10;
+
+  
   if (btree.search(searchKey)) {
     console.log(`The key ${searchKey} is present in the B-tree.`);
   } else {
